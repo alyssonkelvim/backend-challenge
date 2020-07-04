@@ -5,11 +5,10 @@
      private $group_id;
      private $title;
      
-     function __construct($id, $group_id, $title) {
-         $this->id = $id;
-         $this->group_id = $group_id;
-         $this->title = $title;
-     }
+     function __construct() {
+        
+    }
+
      function getId() {
          return $this->id;
      }
